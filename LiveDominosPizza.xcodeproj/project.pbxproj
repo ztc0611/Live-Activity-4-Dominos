@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F944D092B7EC8A900D07622 /* LiveDominosPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D082B7EC8A900D07622 /* LiveDominosPizzaApp.swift */; };
+		3F944D0B2B7EC8A900D07622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D0A2B7EC8A900D07622 /* ContentView.swift */; };
+		3F944D0D2B7EC8AB00D07622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F944D0C2B7EC8AB00D07622 /* Assets.xcassets */; };
+		3F944D102B7EC8AB00D07622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F944D0F2B7EC8AB00D07622 /* Preview Assets.xcassets */; };
+		3F944D1A2B7EC8AB00D07622 /* LiveDominosPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D192B7EC8AB00D07622 /* LiveDominosPizzaTests.swift */; };
+		3F944D242B7EC8AB00D07622 /* LiveDominosPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D232B7EC8AB00D07622 /* LiveDominosPizzaUITests.swift */; };
+		3F944D262B7EC8AB00D07622 /* LiveDominosPizzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D252B7EC8AB00D07622 /* LiveDominosPizzaUITestsLaunchTests.swift */; };
+		3F944D342B7EC8C300D07622 /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D332B7EC8C300D07622 /* OrderAttributes.swift */; };
+		3F944D3C2B7EC8D400D07622 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F944D3B2B7EC8D400D07622 /* WidgetKit.framework */; };
+		3F944D3E2B7EC8D400D07622 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F944D3D2B7EC8D400D07622 /* SwiftUI.framework */; };
+		3F944D412B7EC8D400D07622 /* LiveOrderBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D402B7EC8D400D07622 /* LiveOrderBundle.swift */; };
+		3F944D432B7EC8D400D07622 /* LiveOrderLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D422B7EC8D400D07622 /* LiveOrderLiveActivity.swift */; };
+		3F944D492B7EC8D500D07622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F944D482B7EC8D500D07622 /* Assets.xcassets */; };
+		3F944D4D2B7EC8D500D07622 /* LiveOrderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F944D392B7EC8D400D07622 /* LiveOrderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F944D522B7EC8D900D07622 /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F944D332B7EC8C300D07622 /* OrderAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F944D162B7EC8AB00D07622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F944CFD2B7EC8A900D07622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F944D042B7EC8A900D07622;
+			remoteInfo = LiveDominosPizza;
+		};
+		3F944D202B7EC8AB00D07622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F944CFD2B7EC8A900D07622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F944D042B7EC8A900D07622;
+			remoteInfo = LiveDominosPizza;
+		};
+		3F944D4B2B7EC8D500D07622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F944CFD2B7EC8A900D07622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F944D382B7EC8D400D07622;
+			remoteInfo = LiveOrderExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F944D512B7EC8D500D07622 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F944D4D2B7EC8D500D07622 /* LiveOrderExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F944D052B7EC8A900D07622 /* LiveDominosPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveDominosPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F944D082B7EC8A900D07622 /* LiveDominosPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDominosPizzaApp.swift; sourceTree = "<group>"; };
+		3F944D0A2B7EC8A900D07622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F944D0C2B7EC8AB00D07622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F944D0F2B7EC8AB00D07622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F944D152B7EC8AB00D07622 /* LiveDominosPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDominosPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F944D192B7EC8AB00D07622 /* LiveDominosPizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDominosPizzaTests.swift; sourceTree = "<group>"; };
+		3F944D1F2B7EC8AB00D07622 /* LiveDominosPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDominosPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F944D232B7EC8AB00D07622 /* LiveDominosPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDominosPizzaUITests.swift; sourceTree = "<group>"; };
+		3F944D252B7EC8AB00D07622 /* LiveDominosPizzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDominosPizzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F944D332B7EC8C300D07622 /* OrderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAttributes.swift; sourceTree = "<group>"; };
+		3F944D392B7EC8D400D07622 /* LiveOrderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveOrderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F944D3B2B7EC8D400D07622 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3F944D3D2B7EC8D400D07622 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3F944D402B7EC8D400D07622 /* LiveOrderBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveOrderBundle.swift; sourceTree = "<group>"; };
+		3F944D422B7EC8D400D07622 /* LiveOrderLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveOrderLiveActivity.swift; sourceTree = "<group>"; };
+		3F944D482B7EC8D500D07622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F944D4A2B7EC8D500D07622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9B459A2B7EE77C00F94DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F944D022B7EC8A900D07622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D122B7EC8AB00D07622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D1C2B7EC8AB00D07622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D362B7EC8D400D07622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D3E2B7EC8D400D07622 /* SwiftUI.framework in Frameworks */,
+				3F944D3C2B7EC8D400D07622 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F944CFC2B7EC8A900D07622 = {
+			isa = PBXGroup;
+			children = (
+				3F944D072B7EC8A900D07622 /* LiveDominosPizza */,
+				3F944D182B7EC8AB00D07622 /* LiveDominosPizzaTests */,
+				3F944D222B7EC8AB00D07622 /* LiveDominosPizzaUITests */,
+				3F944D3F2B7EC8D400D07622 /* LiveOrder */,
+				3F944D3A2B7EC8D400D07622 /* Frameworks */,
+				3F944D062B7EC8A900D07622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F944D062B7EC8A900D07622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D052B7EC8A900D07622 /* LiveDominosPizza.app */,
+				3F944D152B7EC8AB00D07622 /* LiveDominosPizzaTests.xctest */,
+				3F944D1F2B7EC8AB00D07622 /* LiveDominosPizzaUITests.xctest */,
+				3F944D392B7EC8D400D07622 /* LiveOrderExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F944D072B7EC8A900D07622 /* LiveDominosPizza */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B459A2B7EE77C00F94DC5 /* Info.plist */,
+				3F944D322B7EC8B100D07622 /* Model */,
+				3F944D082B7EC8A900D07622 /* LiveDominosPizzaApp.swift */,
+				3F944D0A2B7EC8A900D07622 /* ContentView.swift */,
+				3F944D0C2B7EC8AB00D07622 /* Assets.xcassets */,
+				3F944D0E2B7EC8AB00D07622 /* Preview Content */,
+			);
+			path = LiveDominosPizza;
+			sourceTree = "<group>";
+		};
+		3F944D0E2B7EC8AB00D07622 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D0F2B7EC8AB00D07622 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F944D182B7EC8AB00D07622 /* LiveDominosPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D192B7EC8AB00D07622 /* LiveDominosPizzaTests.swift */,
+			);
+			path = LiveDominosPizzaTests;
+			sourceTree = "<group>";
+		};
+		3F944D222B7EC8AB00D07622 /* LiveDominosPizzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D232B7EC8AB00D07622 /* LiveDominosPizzaUITests.swift */,
+				3F944D252B7EC8AB00D07622 /* LiveDominosPizzaUITestsLaunchTests.swift */,
+			);
+			path = LiveDominosPizzaUITests;
+			sourceTree = "<group>";
+		};
+		3F944D322B7EC8B100D07622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D332B7EC8C300D07622 /* OrderAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F944D3A2B7EC8D400D07622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D3B2B7EC8D400D07622 /* WidgetKit.framework */,
+				3F944D3D2B7EC8D400D07622 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F944D3F2B7EC8D400D07622 /* LiveOrder */ = {
+			isa = PBXGroup;
+			children = (
+				3F944D402B7EC8D400D07622 /* LiveOrderBundle.swift */,
+				3F944D422B7EC8D400D07622 /* LiveOrderLiveActivity.swift */,
+				3F944D482B7EC8D500D07622 /* Assets.xcassets */,
+				3F944D4A2B7EC8D500D07622 /* Info.plist */,
+			);
+			path = LiveOrder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F944D042B7EC8A900D07622 /* LiveDominosPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F944D292B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizza" */;
+			buildPhases = (
+				3F944D012B7EC8A900D07622 /* Sources */,
+				3F944D022B7EC8A900D07622 /* Frameworks */,
+				3F944D032B7EC8A900D07622 /* Resources */,
+				3F944D512B7EC8D500D07622 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F944D4C2B7EC8D500D07622 /* PBXTargetDependency */,
+			);
+			name = LiveDominosPizza;
+			productName = LiveDominosPizza;
+			productReference = 3F944D052B7EC8A900D07622 /* LiveDominosPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F944D142B7EC8AB00D07622 /* LiveDominosPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F944D2C2B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizzaTests" */;
+			buildPhases = (
+				3F944D112B7EC8AB00D07622 /* Sources */,
+				3F944D122B7EC8AB00D07622 /* Frameworks */,
+				3F944D132B7EC8AB00D07622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F944D172B7EC8AB00D07622 /* PBXTargetDependency */,
+			);
+			name = LiveDominosPizzaTests;
+			productName = LiveDominosPizzaTests;
+			productReference = 3F944D152B7EC8AB00D07622 /* LiveDominosPizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F944D1E2B7EC8AB00D07622 /* LiveDominosPizzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F944D2F2B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizzaUITests" */;
+			buildPhases = (
+				3F944D1B2B7EC8AB00D07622 /* Sources */,
+				3F944D1C2B7EC8AB00D07622 /* Frameworks */,
+				3F944D1D2B7EC8AB00D07622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F944D212B7EC8AB00D07622 /* PBXTargetDependency */,
+			);
+			name = LiveDominosPizzaUITests;
+			productName = LiveDominosPizzaUITests;
+			productReference = 3F944D1F2B7EC8AB00D07622 /* LiveDominosPizzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3F944D382B7EC8D400D07622 /* LiveOrderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F944D4E2B7EC8D500D07622 /* Build configuration list for PBXNativeTarget "LiveOrderExtension" */;
+			buildPhases = (
+				3F944D352B7EC8D400D07622 /* Sources */,
+				3F944D362B7EC8D400D07622 /* Frameworks */,
+				3F944D372B7EC8D400D07622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveOrderExtension;
+			productName = LiveOrderExtension;
+			productReference = 3F944D392B7EC8D400D07622 /* LiveOrderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F944CFD2B7EC8A900D07622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3F944D042B7EC8A900D07622 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3F944D142B7EC8AB00D07622 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F944D042B7EC8A900D07622;
+					};
+					3F944D1E2B7EC8AB00D07622 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3F944D042B7EC8A900D07622;
+					};
+					3F944D382B7EC8D400D07622 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F944D002B7EC8A900D07622 /* Build configuration list for PBXProject "LiveDominosPizza" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F944CFC2B7EC8A900D07622;
+			productRefGroup = 3F944D062B7EC8A900D07622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F944D042B7EC8A900D07622 /* LiveDominosPizza */,
+				3F944D142B7EC8AB00D07622 /* LiveDominosPizzaTests */,
+				3F944D1E2B7EC8AB00D07622 /* LiveDominosPizzaUITests */,
+				3F944D382B7EC8D400D07622 /* LiveOrderExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F944D032B7EC8A900D07622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D102B7EC8AB00D07622 /* Preview Assets.xcassets in Resources */,
+				3F944D0D2B7EC8AB00D07622 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D132B7EC8AB00D07622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D1D2B7EC8AB00D07622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D372B7EC8D400D07622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D492B7EC8D500D07622 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F944D012B7EC8A900D07622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D342B7EC8C300D07622 /* OrderAttributes.swift in Sources */,
+				3F944D0B2B7EC8A900D07622 /* ContentView.swift in Sources */,
+				3F944D092B7EC8A900D07622 /* LiveDominosPizzaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D112B7EC8AB00D07622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D1A2B7EC8AB00D07622 /* LiveDominosPizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D1B2B7EC8AB00D07622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D242B7EC8AB00D07622 /* LiveDominosPizzaUITests.swift in Sources */,
+				3F944D262B7EC8AB00D07622 /* LiveDominosPizzaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F944D352B7EC8D400D07622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F944D412B7EC8D400D07622 /* LiveOrderBundle.swift in Sources */,
+				3F944D522B7EC8D900D07622 /* OrderAttributes.swift in Sources */,
+				3F944D432B7EC8D400D07622 /* LiveOrderLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F944D172B7EC8AB00D07622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F944D042B7EC8A900D07622 /* LiveDominosPizza */;
+			targetProxy = 3F944D162B7EC8AB00D07622 /* PBXContainerItemProxy */;
+		};
+		3F944D212B7EC8AB00D07622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F944D042B7EC8A900D07622 /* LiveDominosPizza */;
+			targetProxy = 3F944D202B7EC8AB00D07622 /* PBXContainerItemProxy */;
+		};
+		3F944D4C2B7EC8D500D07622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F944D382B7EC8D400D07622 /* LiveOrderExtension */;
+			targetProxy = 3F944D4B2B7EC8D500D07622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F944D272B7EC8AB00D07622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F944D282B7EC8AB00D07622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F944D2A2B7EC8AB00D07622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveDominosPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDominosPizza/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Live Pizza";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F944D2B2B7EC8AB00D07622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveDominosPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveDominosPizza/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Live Pizza";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F944D2D2B7EC8AB00D07622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveDominosPizza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveDominosPizza";
+			};
+			name = Debug;
+		};
+		3F944D2E2B7EC8AB00D07622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveDominosPizza.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveDominosPizza";
+			};
+			name = Release;
+		};
+		3F944D302B7EC8AB00D07622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveDominosPizza;
+			};
+			name = Debug;
+		};
+		3F944D312B7EC8AB00D07622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveDominosPizza;
+			};
+			name = Release;
+		};
+		3F944D4F2B7EC8D500D07622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveOrder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveOrder;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizza.LiveOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F944D502B7EC8D500D07622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSLGBRYXK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveOrder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveOrder;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zachc.LiveDominosPizza.LiveOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F944D002B7EC8A900D07622 /* Build configuration list for PBXProject "LiveDominosPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F944D272B7EC8AB00D07622 /* Debug */,
+				3F944D282B7EC8AB00D07622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F944D292B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F944D2A2B7EC8AB00D07622 /* Debug */,
+				3F944D2B2B7EC8AB00D07622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F944D2C2B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F944D2D2B7EC8AB00D07622 /* Debug */,
+				3F944D2E2B7EC8AB00D07622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F944D2F2B7EC8AB00D07622 /* Build configuration list for PBXNativeTarget "LiveDominosPizzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F944D302B7EC8AB00D07622 /* Debug */,
+				3F944D312B7EC8AB00D07622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F944D4E2B7EC8D500D07622 /* Build configuration list for PBXNativeTarget "LiveOrderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F944D4F2B7EC8D500D07622 /* Debug */,
+				3F944D502B7EC8D500D07622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F944CFD2B7EC8A900D07622 /* Project object */;
+}
