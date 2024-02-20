@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 import BackgroundTasks
 import ActivityKit
+import MessageUI
 
 let dateFormatter = ISO8601DateFormatter()
 
