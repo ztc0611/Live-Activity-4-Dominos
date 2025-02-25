@@ -6,16 +6,16 @@
 
 ## How does this work?
 
-As of the creation of this app, the Dominos API is not locked down, and can be accessed publicly. By typing in the (10 digit) phone number associated with the order and hitting start, it is able to access the tracking data of the order. 
+As of the creation of this app, the Dominos API is not locked down, and can be accessed publicly. By typing in the (10 digit United States) phone number associated with the order and hitting start, it is able to access the tracking data of the order. 
 
 None of this information ever goes to a place I can access, it is just between you and the Dominos server.
 
 ## How can I use it?
 
-This will require you to "sideload" the app via Xcode. Download the project zip, open it in Xcode, and configure sending it to your device. Depending on if you have a free or paid developer account, the amount of time the app stays possible to use changes. It also works correctly in the simulator. 
+This will require you to install the app via Xcode, or run in a Simulator. Download the project zip, open it in Xcode, and configure sending it to your device/simulator.
 
-Once you have it on your device, make an order, then type in your phone number and hit start.
+Once you have it running, make an order, then type in your phone number and hit start.
 
 ## Why not the full tracker? / Why no automatic start?
 
-Adding the full tracker or automatic start would require a middleman server, as you cannot update a live activity in the way required without push notifications. Even if one was set up and paid for, the server would likely be banned for spamming polling requests to their website.
+Adding the full tracker or automatic start would require a middleman server, as you cannot update a live activity in the way required without push notifications. Even if one was set up and paid for, the server would likely be IP banned for spamming polling requests to their website.
