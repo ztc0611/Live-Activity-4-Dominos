@@ -1,4 +1,4 @@
-# Live Activty for Dominos Pizza
+# Live Activity for Dominos Pizza
  Using this app, a countdown timer based on live data can be initiated from your phone. This will show the minimum and maximum number of time left until your order is ready. This works on both delivery and pickup orders in the US.
 
  ![image](https://github.com/ztc0611/Live-Dominos-Pizza/assets/28269330/232ae196-e84b-4b70-954b-719102e850e2)
